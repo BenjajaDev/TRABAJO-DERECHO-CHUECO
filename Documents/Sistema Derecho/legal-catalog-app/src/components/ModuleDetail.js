@@ -38,6 +38,16 @@ export default function ModuleDetail() {
                 <div className={styles.refContent}>
                   <strong>{r.title} ({r.articulo})</strong>
                   <p>{r.content}</p>
+                  {r.filePath && (
+                    <a 
+                      href={process.env.PUBLIC_URL + r.filePath} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className={styles.pdfLink}
+                    >
+                      Ver PDF de Referencia
+                    </a>
+                  )}
                 </div>
               )}
             </li>
@@ -48,6 +58,19 @@ export default function ModuleDetail() {
       <section className={styles.detail}>
         <h2>{mod.title}</h2>
         <p className={styles.content}>{mod.content}</p>
+
+        {mod.filePath && (
+          <div className={styles.pdfLinkRow}>
+            <a 
+              href={process.env.PUBLIC_URL + mod.filePath} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className={styles.pdfLink}
+            >
+              Ver PDF del Módulo
+            </a>
+          </div>
+        )}
 
         <div className={styles.backRow}>
           <Link to="/" className={styles.backLink}>&larr; Volver al catálogo</Link>

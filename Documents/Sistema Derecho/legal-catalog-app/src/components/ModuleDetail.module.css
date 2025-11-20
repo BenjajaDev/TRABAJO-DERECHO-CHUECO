@@ -52,6 +52,21 @@
   line-height: 1.6;
 }
 
+.pdfLink {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.4rem 0.6rem;
+  background: #166534;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.pdfLinkRow {
+  margin-top: 1rem;
+}
+
 .backRow {
   margin-top: 1.25rem;
 }
