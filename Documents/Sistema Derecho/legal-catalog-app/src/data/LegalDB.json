@@ -1,0 +1,126 @@
+{
+  "modules": [
+    {
+      "id": 1,
+      "title": "Módulo 1 - Introducción al Derecho Civil",
+      "content": "Contenido simulado del Módulo 1. Conceptos básicos, fuentes del derecho y estructura del curso.",
+      "related_refs": [1, 2]
+    },
+    {
+      "id": 2,
+      "title": "Módulo 2 - Personas y Capacidad",
+      "content": "Contenido simulado del Módulo 2. Persona natural, jurídica y capacidad de obrar.",
+      "related_refs": [2, 4]
+    },
+    {
+      "id": 3,
+      "title": "Módulo 3 - Bienes y Derechos Reales",
+      "content": "Contenido simulado del Módulo 3. Clasificación de bienes, adquisición y pérdida de la posesión.",
+      "related_refs": [5]
+    },
+    {
+      "id": 4,
+      "title": "Módulo 4 - Contratos en General",
+      "content": "Contenido simulado del Módulo 4. Elementos esenciales del contrato, consentimiento y objeto.",
+      "related_refs": [3, 6]
+    },
+    {
+      "id": 5,
+      "title": "Módulo 5 - Obligaciones y Responsabilidad",
+      "content": "Contenido simulado del Módulo 5. Fuentes de las obligaciones, cumplimiento e incumplimiento.",
+      "related_refs": [6, 7]
+    },
+    {
+      "id": 6,
+      "title": "Módulo 6 - Contratos Especiales",
+      "content": "Contenido simulado del Módulo 6. Compraventa, arrendamiento, mandato y otros contratos típicos.",
+      "related_refs": [4, 8]
+    },
+    {
+      "id": 7,
+      "title": "Módulo 7 - Derechos de Familia",
+      "content": "Contenido simulado del Módulo 7. Matrimonio, filiación, régimen patrimonial.",
+      "related_refs": [9]
+    },
+    {
+      "id": 8,
+      "title": "Módulo 8 - Sucesiones",
+      "content": "Contenido simulado del Módulo 8. Testamentos, herencias y legítimas.",
+      "related_refs": [1, 9]
+    },
+    {
+      "id": 9,
+      "title": "Módulo 9 - Procedimiento Civil",
+      "content": "Contenido simulado del Módulo 9. Principios procesales y fases del proceso.",
+      "related_refs": [7]
+    },
+    {
+      "id": 10,
+      "title": "Módulo 10 - Ejecución y Recursos",
+      "content": "Contenido simulado del Módulo 10. Medios de impugnación y ejecución de sentencias.",
+      "related_refs": [8]
+    },
+    {
+      "id": 11,
+      "title": "Módulo 11 - Ética y Deontología Jurídica",
+      "content": "Contenido simulado del Módulo 11. Deberes del jurista y ética profesional.",
+      "related_refs": [2]
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "title": "Principio General de Buena Fe",
+      "articulo": "Art. 1",
+      "content": "Contenido simulado del Principio General de Buena Fe: su importancia en los contratos y la interpretación jurídica."
+    },
+    {
+      "id": 2,
+      "title": "Teoría de la Persona Jurídica",
+      "articulo": "Art. 27",
+      "content": "Contenido simulado sobre la persona jurídica, sus elementos constitutivos y efectos legales."
+    },
+    {
+      "id": 3,
+      "title": "Artículo 1470 - Consentimiento",
+      "articulo": "Art. 1470",
+      "content": "Texto simulado del Artículo 1470: Reglas sobre la formación del consentimiento y vicios que lo afectan."
+    },
+    {
+      "id": 4,
+      "title": "Reglas sobre Capacidad",
+      "articulo": "Art. 200",
+      "content": "Contenido simulado que desarrolla las reglas sobre capacidad y protección de incapaces."
+    },
+    {
+      "id": 5,
+      "title": "Posesión y Medios de Adquirirla",
+      "articulo": "Art. 300",
+      "content": "Contenido simulado acerca de la posesión y sus efectos jurídicos."
+    },
+    {
+      "id": 6,
+      "title": "Interpretación de Contratos",
+      "articulo": "Art. 1200",
+      "content": "Contenido simulado relativo a la interpretación de las cláusulas contractuales."
+    },
+    {
+      "id": 7,
+      "title": "Responsabilidad Civil",
+      "articulo": "Art. 1600",
+      "content": "Contenido simulado sobre la responsabilidad civil extracontractual y sus presupuestos."
+    },
+    {
+      "id": 8,
+      "title": "Medios de Impugnación",
+      "articulo": "Art. 2100",
+      "content": "Contenido simulado que recoge los recursos ordinarios y extraordinarios en el proceso civil."
+    },
+    {
+      "id": 9,
+      "title": "Principios de Derecho de Familia",
+      "articulo": "Art. 500",
+      "content": "Contenido simulado sobre la protección de la familia y los derechos fundamentales conexos."
+    }
+  ]
+}
