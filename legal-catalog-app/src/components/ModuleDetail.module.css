@@ -47,9 +47,128 @@
   border-radius: 8px;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.badge {
+  background: #10b981;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
 .content {
   color: #111827;
   line-height: 1.6;
+}
+
+.info {
+  margin: 1rem 0;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.purchaseSection {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f9fafb;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.authWarning {
+  background: #fef3c7;
+  border: 2px solid #fbbf24;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.authWarning p {
+  margin: 0 0 0.75rem 0;
+  color: #92400e;
+  font-weight: 600;
+}
+
+.loginLink {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.loginLink:hover {
+  background: #1d4ed8;
+}
+
+.priceBox {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.priceLabel {
+  font-size: 0.9rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.priceAmount {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #059669;
+}
+
+.paymentNote {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.purchaseButton {
+  width: 100%;
+  padding: 1rem;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.purchaseButton:hover {
+  background: #1d4ed8;
+}
+
+.accessButton {
+  display: inline-block;
+  padding: 0.8rem 1.2rem;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 1rem;
+  transition: background 0.2s;
+}
+
+.accessButton:hover {
+  background: #15803d;
 }
 
 .pdfLink {
