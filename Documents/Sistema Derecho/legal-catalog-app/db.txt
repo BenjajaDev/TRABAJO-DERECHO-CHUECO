@@ -1,0 +1,48 @@
+CREATE DATABASE catalogo_juridico;
+
+USE catalogo_juridico;
+
+CREATE TABLE usuarios (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(255) NOT NULL,
+  apellido VARCHAR(255) NOT NULL,
+  telefono VARCHAR(20),
+  email VARCHAR(255) NOT NULL UNIQUE,
+  password VARCHAR(255) NOT NULL,
+  fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE cursos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  titulo VARCHAR(255) NOT NULL,
+  contenido TEXT,
+  precio DECIMAL(10, 2) NOT NULL DEFAULT 0.00,
+  filePath VARCHAR(255)
+);
+
+CREATE TABLE compras (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  usuario_id INT NOT NULL,
+  curso_id INT NOT NULL,
+  estado ENUM('sin pagar', 'pagado') NOT NULL DEFAULT 'sin pagar',
+  fecha_compra TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  precio_pagado DECIMAL(10, 2),
+  FOREIGN KEY (usuario_id) REFERENCES usuarios(id) ON DELETE CASCADE,
+  FOREIGN KEY (curso_id) REFERENCES cursos(id) ON DELETE CASCADE,
+  UNIQUE KEY (usuario_id, curso_id) -- Un usuario solo puede comprar un curso una vez
+);
+
+INSERT INTO cursos (titulo, contenido, precio, filePath) VALUES
+('Módulo 1 - Introducción al Derecho Civil', 'Contenido simulado del Módulo 1. Conceptos básicos, fuentes del derecho y estructura del curso.', 25.00, '/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 1 - Presentación, Teoría de la Ley y Personas.pdf'),
+('Módulo 2 - Personas y Capacidad', 'Contenido simulado del Módulo 2. Persona natural, jurídica y capacidad de obrar.', 25.00, '/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 2 - Acto Jurídico.pdf'),
+('Módulo 3 - Bienes y Derechos Reales', 'Contenido simulado del Módulo 3. Clasificación de bienes, adquisición y pérdida de la posesión.', 25.00, '/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 3 - Derecho de Bienes.pdf'),
+('Módulo 4 - Contratos en General', 'Contenido simulado del Módulo 4. Elementos esenciales del contrato, consentimiento y objeto.', 25.00, '/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 4 - Las Obligaciones.pdf'),
+('Módulo 5 - Obligaciones y Responsabilidad', 'Contenido simulado del Módulo 5. Fuentes de las obligaciones, cumplimiento e incumplimiento.', 25.00, '/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 5 - Fuentes de las Obligaciones.pdf'),
+('Módulo 6 - Contratos Especiales', 'Contenido simulado del Módulo 6. Compraventa, arrendamiento, mandato y otros contratos típicos.', 25.00, '/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 6 - Derecho de Familia.pdf'),
+('Módulo 7 - Derechos de Familia', 'Contenido simulado del Módulo 7. Matrimonio, filiación, régimen patrimonial.', 25.00, '/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 7 - Derecho Sucesorio.pdf'),
+('Módulo 8 - Sucesiones', 'Contenido simulado del Módulo 8. Testamentos, herencias y legítimas.', 25.00, '/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 8 - Derecho Procesal Orgánico y Disposiciones Comunes.pdf'),
+('Módulo 9 - Procedimiento Civil', 'Contenido simulado del Módulo 9. Principios procesales y fases del proceso.', 25.00, '/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 9 - Los Procedimientos.pdf'),
+('Módulo 10 - Ejecución y Recursos', 'Contenido simulado del Módulo 10. Medios de impugnación y ejecución de sentencias.', 25.00, '/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 10 - Recursos Procesales Civiles.pdf'),
+('Módulo 11 - Ética y Deontología Jurídica', 'Contenido simulado del Módulo 11. Deberes del jurista y ética profesional.', 25.00, '/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 11 - Procedimiento Penal.pdf');
+
+select * from usuarios;
