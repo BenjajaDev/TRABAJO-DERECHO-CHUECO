@@ -5,77 +5,77 @@
       "title": "Módulo 1 - Introducción al Derecho Civil",
       "content": "Contenido simulado del Módulo 1. Conceptos básicos, fuentes del derecho y estructura del curso.",
       "related_refs": [1, 2],
-      "filePath": "/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 1 - Presentación, Teoría de la Ley y Personas.pdf"
+      "filePath": "../docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 1 - Presentación, Teoría de la Ley y Personas.pdf"
     },
     {
       "id": 2,
       "title": "Módulo 2 - Personas y Capacidad",
       "content": "Contenido simulado del Módulo 2. Persona natural, jurídica y capacidad de obrar.",
       "related_refs": [2, 4],
-      "filePath": "/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 2 - Acto Jurídico.pdf"
+      "filePath": "../docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 2 - Acto Jurídico.pdf"
     },
     {
       "id": 3,
       "title": "Módulo 3 - Bienes y Derechos Reales",
       "content": "Contenido simulado del Módulo 3. Clasificación de bienes, adquisición y pérdida de la posesión.",
       "related_refs": [5],
-      "filePath": "/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 3 - Derecho de Bienes.pdf"
+      "filePath": "../docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 3 - Derecho de Bienes.pdf"
     },
     {
       "id": 4,
       "title": "Módulo 4 - Contratos en General",
       "content": "Contenido simulado del Módulo 4. Elementos esenciales del contrato, consentimiento y objeto.",
       "related_refs": [3, 6],
-      "filePath": "/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 4 - Las Obligaciones.pdf"
+      "filePath": "../docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 4 - Las Obligaciones.pdf"
     },
     {
       "id": 5,
       "title": "Módulo 5 - Obligaciones y Responsabilidad",
       "content": "Contenido simulado del Módulo 5. Fuentes de las obligaciones, cumplimiento e incumplimiento.",
       "related_refs": [6, 7],
-      "filePath": "/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 5 - Fuentes de las Obligaciones.pdf"
+      "filePath": "../docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 5 - Fuentes de las Obligaciones.pdf"
     },
     {
       "id": 6,
       "title": "Módulo 6 - Contratos Especiales",
       "content": "Contenido simulado del Módulo 6. Compraventa, arrendamiento, mandato y otros contratos típicos.",
       "related_refs": [4, 8],
-      "filePath": "/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 6 - Derecho de Familia.pdf"
+      "filePath": "../docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 6 - Derecho de Familia.pdf"
     },
     {
       "id": 7,
       "title": "Módulo 7 - Derechos de Familia",
       "content": "Contenido simulado del Módulo 7. Matrimonio, filiación, régimen patrimonial.",
       "related_refs": [9],
-      "filePath": "/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 7 - Derecho Sucesorio.pdf"
+      "filePath": "../docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 7 - Derecho Sucesorio.pdf"
     },
     {
       "id": 8,
       "title": "Módulo 8 - Sucesiones",
       "content": "Contenido simulado del Módulo 8. Testamentos, herencias y legítimas.",
       "related_refs": [1, 9],
-      "filePath": "/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 8 - Derecho Procesal Orgánico y Disposiciones Comunes.pdf"
+      "filePath": "../docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 8 - Derecho Procesal Orgánico y Disposiciones Comunes.pdf"
     },
     {
       "id": 9,
       "title": "Módulo 9 - Procedimiento Civil",
       "content": "Contenido simulado del Módulo 9. Principios procesales y fases del proceso.",
       "related_refs": [7],
-      "filePath": "/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 9 - Los Procedimientos.pdf"
+      "filePath": "../docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 9 - Los Procedimientos.pdf"
     },
     {
       "id": 10,
       "title": "Módulo 10 - Ejecución y Recursos",
       "content": "Contenido simulado del Módulo 10. Medios de impugnación y ejecución de sentencias.",
       "related_refs": [8],
-      "filePath": "/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 10 - Recursos Procesales Civiles.pdf"
+      "filePath": "../docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 10 - Recursos Procesales Civiles.pdf"
     },
     {
       "id": 11,
       "title": "Módulo 11 - Ética y Deontología Jurídica",
       "content": "Contenido simulado del Módulo 11. Deberes del jurista y ética profesional.",
       "related_refs": [2],
-      "filePath": "/docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 11 - Procedimiento Penal.pdf"
+      "filePath": "../docs/Thomson reuters/Thomson Reuters - Curso Examen de Grado - Módulo 11 - Procedimiento Penal.pdf"
     }
   ],
   "references": [
@@ -84,63 +84,63 @@
       "title": "Principio General de Buena Fe",
       "articulo": "Art. 1",
       "content": "Contenido simulado del Principio General de Buena Fe: su importancia en los contratos y la interpretación jurídica.",
-      "filePath": "/docs/Artículos Importantes de civil/Buena Fe. Objetiva y Subjetiva.pdf"
+      "filePath": "../docs/Artículos Importantes de civil/Buena Fe. Objetiva y Subjetiva.pdf"
     },
     {
       "id": 2,
       "title": "Teoría de la Persona Jurídica",
       "articulo": "Art. 27",
       "content": "Contenido simulado sobre la persona jurídica, sus elementos constitutivos y efectos legales.",
-      "filePath": "/docs/Artículos Importantes de civil/Requisitos de validez del acto jur°dico. art. 1445.pdf"
+      "filePath": "../docs/Artículos Importantes de civil/Requisitos de validez del acto jur°dico. art. 1445.pdf"
     },
     {
       "id": 3,
       "title": "Artículo 1470 - Consentimiento",
       "articulo": "Art. 1470",
       "content": "Texto simulado del Artículo 1470: Reglas sobre la formación del consentimiento y vicios que lo afectan.",
-      "filePath": "/docs/Artículos Importantes de civil/Vicios del consentimiento. Art. 1451-1459.pdf"
+      "filePath": "../docs/Artículos Importantes de civil/Vicios del consentimiento. Art. 1451-1459.pdf"
     },
     {
       "id": 4,
       "title": "Reglas sobre Capacidad",
       "articulo": "Art. 200",
       "content": "Contenido simulado que desarrolla las reglas sobre capacidad y protección de incapaces.",
-      "filePath": "/docs/Artículos Importantes de civil/OBLIGACIONES CIVILES Y NATURALES. Art 1470.pdf"
+      "filePath": "../docs/Artículos Importantes de civil/OBLIGACIONES CIVILES Y NATURALES. Art 1470.pdf"
     },
     {
       "id": 5,
       "title": "Posesión y Medios de Adquirirla",
       "articulo": "Art. 300",
       "content": "Contenido simulado acerca de la posesión y sus efectos jurídicos.",
-      "filePath": "/docs/Artículos Importantes de civil/POSESI_N. TEORIA DE LA POSESION INSCRITA.pdf"
+      "filePath": "../docs/Artículos Importantes de civil/POSESI_N. TEORIA DE LA POSESION INSCRITA.pdf"
     },
     {
       "id": 6,
       "title": "Interpretación de Contratos",
       "articulo": "Art. 1200",
       "content": "Contenido simulado relativo a la interpretación de las cláusulas contractuales.",
-      "filePath": "/docs/Artículos Importantes de civil/Pacta Sunt Servanda. Art. 1545.pdf"
+      "filePath": "../docs/Artículos Importantes de civil/Pacta Sunt Servanda. Art. 1545.pdf"
     },
     {
       "id": 7,
       "title": "Responsabilidad Civil",
       "articulo": "Art. 1600",
       "content": "Contenido simulado sobre la responsabilidad civil extracontractual y sus presupuestos.",
-      "filePath": "/docs/Artículos Importantes de civil/OBLIGACIONES INDIVISIBLES.pdf"
+      "filePath": "../docs/Artículos Importantes de civil/OBLIGACIONES INDIVISIBLES.pdf"
     },
     {
       "id": 8,
       "title": "Medios de Impugnación",
       "articulo": "Art. 2100",
       "content": "Contenido simulado que recoge los recursos ordinarios y extraordinarios en el proceso civil.",
-      "filePath": "/docs/Artículos Importantes de civil/Derechos Reales y Derechos Personales.pdf"
+      "filePath": "../docs/Artículos Importantes de civil/Derechos Reales y Derechos Personales.pdf"
     },
     {
       "id": 9,
       "title": "Principios de Derecho de Familia",
       "articulo": "Art. 500",
       "content": "Contenido simulado sobre la protección de la familia y los derechos fundamentales conexos.",
-      "filePath": "/docs/Artículos Importantes de civil/DOMINIO. Art. 582.pdf"
+      "filePath": "../docs/Artículos Importantes de civil/DOMINIO. Art. 582.pdf"
     }
   ]
 }
